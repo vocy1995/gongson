@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/startImgGonson"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_margin="50dp"
+        android:layout_weight="0"
+        android:src="@drawable/gongson" />
+    <TextView
+        android:id="@+id/gongSon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#AA000000"
+        android:text="공       손"
+        android:textSize="50dp" />
+    <TextView
+        android:id="@+id/subGongSon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="모                       해"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/finalGongSon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="전     안하면          "
+        android:textSize="20dp" />
+
+</LinearLayout>
+

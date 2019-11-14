@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/creTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="테스트"/>
+
+    <EditText
+        android:id="@+id/creContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="테스트"/>
+
+    <EditText
+        android:id="@+id/creCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="테스트"/>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생성"/>
+
+</LinearLayout>
